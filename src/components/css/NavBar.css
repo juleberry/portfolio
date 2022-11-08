@@ -1,4 +1,5 @@
 #navBar {
+  color: white;
   display: flex;
   /* width: 50%; */
   list-style-type: none;
@@ -8,8 +9,9 @@
 }
 
 #compassIcon {
-  /* position: sticky; */
-  background-color: #FFDC20;
+  /* position: -webkit-sticky;
+	position: sticky; */
+  background-color: #ffdc20;
   border-radius: 10px;
   border: 0;
   float: right;
@@ -21,7 +23,7 @@
 
 #compassIcon:hover {
   background-color: #fced9a;
-  transition: ease-in-out .3s;
+  transition: ease-in-out 0.3s;
 }
 
 .hidden {
