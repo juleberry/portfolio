@@ -1,4 +1,4 @@
-import WorkHistoryItem from "../components/WorkHistoryItem"
+import WorkHistoryItem from "./WorkHistoryItem"
 
 export default function WorkHistory (props) {
   return (

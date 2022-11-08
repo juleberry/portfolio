@@ -12,9 +12,8 @@ return (
   <ul id="navBar">
     <li>Home</li>
     <li>About</li>
-    <li>Work History</li>
     <li>Projects</li>
-    <li>Contacts</li>
+    <li>Contact</li>
   </ul>
   </nav>
   </>
