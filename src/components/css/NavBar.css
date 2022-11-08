@@ -1,0 +1,30 @@
+#navBar {
+  display: flex;
+  /* width: 50%; */
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+#compassIcon {
+  /* position: sticky; */
+  background-color: #FFDC20;
+  border-radius: 10px;
+  border: 0;
+  float: right;
+  margin-right: 1rem;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+}
+
+#compassIcon:hover {
+  background-color: #fced9a;
+  transition: ease-in-out .3s;
+}
+
+.hidden {
+  /* display: none; */
+  visibility: hidden;
+}
