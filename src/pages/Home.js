@@ -1,17 +1,40 @@
 import "./css/Home.css";
+import React from "react";
+import ReactTypingEffect from 'react-typing-effect';
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
 
 export default function Home(props) {
   return (
     <>
-      <NavBar />
       <div id="intro">
-        <h1>Jule Berry</h1>
+      <NavBar />
+      <ReactTypingEffect
+        text={["Hello.", "I'm Jule Berry, a software engineer."]}
+        cursorRenderer={cursor => <h1>{cursor}</h1>}
+        eraseDelay={"500ms"}
+        typingDelay={"1000ms"}
+        displayTextRenderer={(text, i) => {
+          return (
+            <h1>
+              {text.split('').map((char, i) => {
+                const key = `${i}`;
+                return (
+                  <span
+                    key={key}
+                    // style={i%2 === 0 ? { color: 'cyan'} : {}}
+                  >{char}</span>
+                );
+              })}
+            </h1>
+          );
+        }}        
+      />
+        {/* <h1>Jule Berry</h1>
         <h3>Software Engineer</h3>
         <p>
           <a href="#actionNav">Explore</a>
-        </p>
+        </p> */}
       </div>
       <Header />
     </>
