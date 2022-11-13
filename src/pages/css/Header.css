@@ -5,3 +5,11 @@
   background-color: black;
   padding-top: .5rem;
 }
+
+#mainText {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

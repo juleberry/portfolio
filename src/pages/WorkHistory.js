@@ -17,7 +17,7 @@ export default function WorkHistory (props) {
       <li><WorkHistoryItem /></li>
       <li><WorkHistoryItem /></li>
     </ul>
-    <button>View Resume</button>
+    <a href="public\JuleBerryPublicResume11-2022.pdf" target="_blank"><button>View Resume</button></a>
     </div>
     </>
   )

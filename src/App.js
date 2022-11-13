@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <div id="theSun">
-        <a href="#Home">
+        <a href="#intro">
           <img
             id="homeLink"
             src="https://live.staticflickr.com/65535/52482586311_3bb422275a_o.png"

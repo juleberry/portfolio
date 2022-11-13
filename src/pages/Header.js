@@ -29,11 +29,13 @@ export default function Header(props) {
           );
         }}        
       /> */}
+      <div id="mainText">
         <h1>Jule Berry</h1>
         <h3>Software Engineer</h3>
         <p>
-          <a href="#actionNav">Explore</a>
+          <a href="#aboutSection">Explore</a>
         </p>
+        </div>
       </div>
     </>
   );
