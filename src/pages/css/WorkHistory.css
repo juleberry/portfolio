@@ -1,0 +1,16 @@
+#workHisLink {
+  width: 200px;
+  transition: transform 2s ease-in-out;
+  text-align: center;
+}
+
+#workHisLink:hover {
+  transform: rotate(3deg);
+  transition: ease 1s;
+}
+
+#workHistory {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

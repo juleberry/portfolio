@@ -1,3 +1,25 @@
 body {
+  color: white;
   background-color: black;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#theSun {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  z-index: 100;
+}
+
+#homeLink {
+  opacity: 0.95;
+  height: 100px;
+  transition: transform 2s ease-in-out;
+}
+
+#homeLink:hover {
+  transition: ease 1s;
+  transition-timing-function: ease-in-out;
+  transform: rotate(45deg);
 }

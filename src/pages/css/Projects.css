@@ -1,0 +1,24 @@
+#projectLink {
+  width: 100px;
+  transition: transform 2s ease-in-out;
+  text-align: center;
+}
+
+#projectLink:hover {
+  transform: scaleX(-1);
+  transition: ease 1s;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#projectList {
+  list-style-type: none;
+}
+
+#projectListCtr {
+  display: flex;
+  flex-wrap: wrap;
+}

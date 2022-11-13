@@ -1,0 +1,16 @@
+#aboutSection {
+  height: 100vh;
+  padding: 2rem;
+  width: 75%;
+}
+
+#aboutLink {
+  width: 200px;
+  transition: transform 1s ease-in-out;
+}
+
+#aboutLink:hover {
+  transition: ease 0.25s;
+  transform: rotate(-5deg);
+  transition-timing-function: ease-in-out;
+}

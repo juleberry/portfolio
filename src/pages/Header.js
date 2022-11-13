@@ -1,15 +1,14 @@
-import "./css/Home.css";
+import "./css/Header.css";
 import React from "react";
-import ReactTypingEffect from 'react-typing-effect';
-import Header from "../components/Header";
+// import ReactTypingEffect from 'react-typing-effect';
 import NavBar from "../components/NavBar";
 
-export default function Home(props) {
+export default function Header(props) {
   return (
     <>
       <div id="intro">
       <NavBar />
-      <ReactTypingEffect
+      {/* <ReactTypingEffect
         text={["Hello.", "I'm Jule Berry, a software engineer."]}
         cursorRenderer={cursor => <h1>{cursor}</h1>}
         eraseDelay={"500ms"}
@@ -29,14 +28,13 @@ export default function Home(props) {
             </h1>
           );
         }}        
-      />
-        {/* <h1>Jule Berry</h1>
+      /> */}
+        <h1>Jule Berry</h1>
         <h3>Software Engineer</h3>
         <p>
           <a href="#actionNav">Explore</a>
-        </p> */}
+        </p>
       </div>
-      <Header />
     </>
   );
 }
