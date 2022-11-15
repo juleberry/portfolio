@@ -1,5 +1,5 @@
 import "./css/WorkHistory.css"
-import WorkHistoryItem from "../components/WorkHistoryItem"
+// import WorkHistoryItem from "../components/WorkHistoryItem"
 
 export default function WorkHistory (props) {
   return (
@@ -13,11 +13,13 @@ export default function WorkHistory (props) {
           />
         </a>
     <h2>Work History</h2>
-    <ul>
+    {/* <ul>
       <li><WorkHistoryItem /></li>
       <li><WorkHistoryItem /></li>
-    </ul>
+    </ul> */}
+    <p>Coming Soon!<br />Please view my resume.<br />
     <a href="public\JuleBerryPublicResume11-2022.pdf" target="_blank"><button>View Resume</button></a>
+    </p>
     </div>
     </>
   )
