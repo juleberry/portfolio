@@ -1,4 +1,4 @@
-# My Portfolio (version 3.0) -- In progress
+# My Portfolio (version 3.0) -- In progress. In the meantime, please view my previous version https://juleberry.netlify.app
 
 ### Introduction:
 A more responsive version of my portfolio with a playful, celestial theme.
