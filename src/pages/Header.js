@@ -33,7 +33,7 @@ export default function Header(props) {
         <h1>Jule Berry</h1>
         <h3>Software Engineer</h3>
         <p>
-          <strong>This portfolio is currently in progress. Please visit my <a href="https://juleberry.netlify.app">previous version</a>.</strong>
+          <strong>This portfolio is currently in progress. Please visit my <a href="https://juleberry.netlify.app" target="_blank">previous version</a>.</strong>
           <br />
           <br />
           <a href="#aboutSection">Explore</a>
